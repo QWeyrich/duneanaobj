@@ -14,7 +14,7 @@ namespace caf
     public:
       std::vector<caf::SRTrack> tracks;
       std::size_t               ntracks  = 0;
-      float                     time; // Added time of interaction
+      float                     time = NaN; // Added time of interaction
   };
 
   /// The information needed to uniquely identify a TMS reco object
