@@ -24,7 +24,7 @@ namespace caf
       SRVector3D dir;        ///< Unit vector representing estimate of track direction *taken from start point*
       SRVector3D enddir;     ///< Unit vector representing estimate of track direction *taken from endpoint*
 
-      float time     = NaN;  ///< Time of track formation [ns]
+      double time     = NaN;  ///< Time of track formation [ns]
 
       float Evis     = NaN;  ///< Visible energy in voxels corresponding to this track
 
