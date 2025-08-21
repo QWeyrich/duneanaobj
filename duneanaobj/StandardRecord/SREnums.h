@@ -136,7 +136,7 @@ namespace caf
     kUndeclared = 0, ///< default value
     kSimple = 1,  ///< match performed using Kate Hildebrandt's "simple" matching algorithm
     kUniqueNoTime = 2,  ///< match performed using Quinton Weyrich's NDLArTMSUniqueMatchRecoFiller.cxx, without time
-    kUniqueWithTime = 3, ///< match performed using Quinton Weyrich's NDLArTMSUniqueMatchRecoFiller.cxx, with time
+    kUniqueWithTime = 3 ///< match performed using Quinton Weyrich's NDLArTMSUniqueMatchRecoFiller.cxx, with time
   };
 
 }
