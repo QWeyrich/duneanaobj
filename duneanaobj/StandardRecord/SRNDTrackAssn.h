@@ -8,7 +8,7 @@
 #include "duneanaobj/StandardRecord/SRTMS.h"
 #include "duneanaobj/StandardRecord/SRMINERvA.h"
 #include "duneanaobj/StandardRecord/SRGAr.h"
-include "duneanaobj/StandardRecord/SREnums.h"
+3include "duneanaobj/StandardRecord/SREnums.h"
 
 namespace caf
 {
