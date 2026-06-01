@@ -27,7 +27,7 @@ namespace caf
       float transdispl  = NaN;     ///< perpendicular distance between the two tracks at longitudinal position of matching point
       float angdispl    = NaN;     ///< angular difference between the two tracks at longitudinal position of matching point
       float matchScore  = NaN;     ///< quantifies how well a LAr and TMS track match each other
-
+      bool trueMatch    = false;   ///< indicates if a matched pair of tracks came from the same particle in reality (based on truth id)
       NDRecoMatchType matchType = caf::NDRecoMatchType::kUndeclared; ///< specifies how the match was performed
 
       SRTrack trk;                   ///< new track object generated from synthesis of matched parts
